@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BowlingScore
 {
-    class ScoreCalculator
+    public class ScoreCalculator
     {
         int currentFrame = 0;
         public string[] frames = new string[10];
